@@ -1,0 +1,55 @@
+body{
+    background-image: url("images/images.jpeg");
+    text-transform: capitalize;
+}
+h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+span{
+    font-family: sans-serif;
+    font-variant: small-caps;
+    color: silver;
+}
+
+.section{
+    width: auto;
+}
+
+div{
+    background-color: darkred;
+}
+p{
+    text-align: justify;
+    color: white;
+}
+ul{
+    list-style: url('images/sqpurple.gif');
+}
+ul li{
+    color: white;
+}
+caption{    
+    background-color: white;
+    border: 1px solid black;
+}
+
+table{
+    width: 100%;
+    border: 2px solid black;
+}
+table table{
+    border: none;
+}
+
+td, th{
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    background-image: url("images/images.jpeg");
+    text-transform: capitalize;
+}
+h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+span{
+    font-family: sans-serif;
+    font-variant: small-caps;
+    color: silver;
+}
+
+.section{
+    margin: 10px;
+    padding: 10px;
+}
+
+div{
+    background-color: darkred;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+    color: white;
+    border: thick dashed white;
+    border-radius: 10px;
+    padding:1em;
+}
+ul{
+    list-style: url('images/sqpurple.gif');
+    outline: dashed yellow;
+}
+ul li{
+    color: white;
+}
+caption{    
+    background-color: white;
+    border: 1px solid black;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    border-top: 0px;
+}
+.footer-table{
+    border: none;
+}
+
+td, th{
+    background-color: white;
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+    <h1>
+        movie dashboard
+    </h1>
+    <div class="section">
+        <span>this is an introduction</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quis animi itaque eaque odit doloribus aliquam sit necessitatibus deleniti eius molestias odio facere dicta natus, placeat nulla similique voluptatibus ab.</p>
+        <span>the following information are displayed for the movies</span>
+        <ul>
+            <li>
+                movie name
+            </li>
+            <li>
+                movie artist
+            </li>
+            <li>
+                movie release year
+            </li>
+            <li>
+                imdb link
+            </li>
+        </ul>
+    </div>
+    <div class="section">
+    <table>
+        <caption>movie list</caption>        
+        <tr>
+            <th>movie name</th>
+            <th>artist</th>
+            <th>release year</th>
+            <th>imdb link</th>
+        </tr>
+        <tr>
+            <td>pursuit of happiness</td>
+            <td>will smith</td>
+            <td>2006</td>
+            <td><a href="https://www.imdb.com/title/tt0454921/">imdb link</a></td>
+        </tr>
+        <tr>
+            <td>slumdog millionaire</td>
+            <td>dev patel, anil kapoor</td>
+            <td>2008</td>
+            <td><a href="http://www.imdb.com/title/tt1010048/">imdb link</a></td>
+        </tr>
+        <tr>
+            <td>vantage point</td>
+            <td>dennis quaid, matthew fox</td>
+            <td>2008</td>
+            <td><a href="http://www.imdb.com/title/tt0443274/">imdb link</a></td>
+        </tr>
+        <tr>
+            <td>argo</td>
+            <td>ben affleck, bryan cranston</td>
+            <td>2012</td>
+            <td><a href="http://www.imdb.com/title/tt1024648/">imdb link</a></td>
+        </tr>        
+    </table>
+    <table>
+        <tfoot>
+            <tr>
+                <td>The above table represents movie details</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+</body>
+</html>
